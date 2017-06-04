@@ -1,0 +1,75 @@
+body{
+
+    background: #666;
+}
+
+.wrapper{
+
+    overflow: hidden;
+    width: 1360px;
+    position: relative;
+    height: 645px;
+    margin: 0 auto;
+    background-image: url('../images/background.jpg');
+    background-size: contain;
+    border-bottom: 10px solid black;
+    cursor: url(../images/gun-target.png), pointer;
+}
+
+canvas{
+
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+}
+
+.message{
+
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    padding: 23%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: rgba(200, 220, 200, 0.6);
+
+    color: #fff;
+}
+
+.message h3{
+
+    font-size: 30px;
+}
+
+.message span{
+
+    font-size: 20px;
+}
+
+.message div{
+
+    margin-top: 20px;
+}
+
+.retryButton{
+
+    padding: 10px;
+    width: 100px;
+    background-color: #0447bf;
+    color: #fff;
+    border-radius: 5px;
+    display: none;
+    margin: 0 auto;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
