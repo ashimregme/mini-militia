@@ -14,3 +14,4 @@ D -> Right
 Mouse -> Direct Shyame
 Left mouse click -> Fire
 ```
+![alt Sample Screenshot](https://github.com/aregmee/mini-militia/blob/master/sample.png?raw=true)
